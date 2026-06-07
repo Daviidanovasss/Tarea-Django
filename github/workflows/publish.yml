@@ -3,7 +3,7 @@ name: Execute docker build
 on:
   push:
     tags:
-      - 'released-seeded*'
+      - '*'
 
 permissions:
   packages: write
